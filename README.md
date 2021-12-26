@@ -64,7 +64,7 @@ headerTextStyle | TextStyle? | It allows you to customize default style of heade
 onExpansionChanged  | ValueChanged<bool>? | When the widget starts expanding, this function is called with the value true. When the tile starts collapsing, this function is called with the value false
 children | List<Widget> | The widgets that are displayed when the tile expands
 headerTileColor | Color? | The color of the header tile
-headerTrailing | Widget? | A widget to display after the title
+headerTrailing | Widget? | A widget to display after the headerTitle
 isHeaderTrailingAnimation| bool |default animation added to headerTrailing Widget if it is true.
 initiallyExpanded| bool | Specifies if the expansionWidget is initially expanded (true) or collapsed, default is false
 animationDuration| Duration? | The length of time of animation ,default is 200 ms 
