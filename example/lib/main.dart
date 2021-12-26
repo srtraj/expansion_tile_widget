@@ -35,8 +35,7 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
         body: Padding(
       padding: const EdgeInsets.symmetric(vertical: 100, horizontal: 50),
-      child:
-      CustomExpansionTileWidget(
+      child: CustomExpansionTileWidget(
         headerTitle: "Overview",
         headerDecoration: BoxDecoration(
             borderRadius: BorderRadius.all(Radius.circular(12)),
