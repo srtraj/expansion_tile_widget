@@ -55,7 +55,7 @@ CustomExpansionTileWidget(
         ],
       ),
 ```
-<img src="https://github.com/srtraj/expansion_tile_widget/blob/master/assets/screen-recording-20211226-143618_ZGbPoa5j.mp4">
+<img src="https://github.com/srtraj/expansion_tile_widget/blob/master/assets/ezgif-6-1e5f476b9b.gif">
 
 
 ### Parameters
