@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 class CustomExpansionTileWidget extends StatefulWidget {
   const CustomExpansionTileWidget(
       {Key? key,
-      this.leading,
+      this.headerLeading,
       this.headerTileColor,
       required this.headerTitle,
       this.headerDecoration,
@@ -18,11 +18,10 @@ class CustomExpansionTileWidget extends StatefulWidget {
       this.onExpansionChanged,
       this.children = const <Widget>[],
       this.initiallyExpanded = false,
-      this.textColor,
       this.paddingBetweenHeaderAndChildren})
       : super(key: key);
 
-  final Widget? leading;
+  final Widget? headerLeading;
   final String headerTitle;
   final Decoration? headerDecoration;
   final EdgeInsets? headerPadding;
@@ -34,7 +33,6 @@ class CustomExpansionTileWidget extends StatefulWidget {
   final Widget? headerTrailing;
   final bool isHeaderTrailingAnimation;
   final bool initiallyExpanded;
-  final Color? textColor;
   final EdgeInsets? paddingBetweenHeaderAndChildren;
   final Duration? animationDuration;
 
@@ -108,7 +106,7 @@ class _CustomExpansionTileWidgetState extends State<CustomExpansionTileWidget>
             child: ListTileTheme.merge(
               child: ListTile(
                   onTap: _handleTap,
-                  leading: widget.leading,
+                  leading: widget.headerLeading,
                   title: Text(
                     widget.headerTitle,
                     style: widget.headerTextStyle,
