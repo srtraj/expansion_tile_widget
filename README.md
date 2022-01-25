@@ -1,6 +1,6 @@
 # CustomExpansionTileWidget
 
-A **CustomExpansionTileWidget** is An edited version of Expansion Tile that allows you customize header tile and expanded list.
+A **CustomExpansionTileWidget** is An edited version of Expansion Tile that will allows you to customize header tile and expanded list.
 
 #### Example
 ```dart
